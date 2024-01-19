@@ -37,6 +37,21 @@ svg.append("line")
   .attr("x2",120)
   .attr("y2",120)
   .attr("stroke","steelblue");
+
+
+svg.append("line")
+   .attr("x1",500)
+   .attr("y1",500)
+   .attr("x2",550)
+   .attr("y2",550)
+   .attr("stroke","black");
+
+svg.append("line")
+   .attr("x1",750)
+   .attr("y1",750)
+   .attr("x2",500)
+   .attr("y2",500)
+   .attr("stroke","black");
   // Add Polygons
 var point = [[100,0],[100,200],[0,200]];
 
@@ -63,19 +78,7 @@ svg.append("polygon")
   .attr("points", point2.map(d => d.join(",")))
   .attr("fill","red");
 
-// svg.append("line")
-//   .attr("x1",100)
-//   .attr("y1",100)
-//   .attr("x2",70)
-//   .attr("y2",120)
-//   .attr("stroke","black");
 
-// svg.append("line")
-//   .attr("x1",100)
-//   .attr("y1",110)
-//   .attr("x2",70)
-//   .attr("y2",130)
-//   .attr("stroke","black");
 
 var point3 = [[95,100],[70,120],[70,130],[100,110]];
 
